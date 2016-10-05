@@ -1,0 +1,20 @@
+<ion-view title="Drop a pin to mark where you parked your car">
+    <ion-content>
+    <script>
+
+      </script>
+        <div>
+            <div id="map" lat="38.921217" lng="-77.020462" zoom="18" map></div>
+            </div>
+                <button class="button button-full button-positive" ng-click="carParked()">
+                    I parked my car here.
+                </button>
+                <p>You parked your car at: {{$ctrl.lat}}</p>
+                                <button class="button button-full button-positive" ng-click="printList()" >
+                    Find places near me
+                </button>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

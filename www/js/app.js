@@ -29,7 +29,11 @@ angular.module('starter', ['ionic','starter.controllers'])
             templateUrl: 'templates/home.html',
             controller: 'HomeCtrl'
         })
-
+        .state('map', {
+            url: '/map',
+            templateUrl: 'templates/map.html',
+            controller: 'MapCtrl'
+        })
     $urlRouterProvider.otherwise('/home');
 });
 
