@@ -29,9 +29,7 @@ $scope.saveDetails = function(){
 };
 }])
 
-.controller('MapCtrl', ['$scope', '$firebaseObject', function($scope,$firebaseObject,$ionicPopup) {
-
-}])
+.controller('MapCtrl', ['$scope', '$firebaseObject', function($scope,$firebaseObject,$ionicPopup) {}])
 
 .directive('map', function($ionicPopup) {
     return {
